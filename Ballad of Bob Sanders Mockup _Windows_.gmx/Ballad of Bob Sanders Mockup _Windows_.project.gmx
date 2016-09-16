@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Enemies">
+      <sprite>sprites\spr_basic_enemy</sprite>
+    </sprites>
     <sprites name="Walls, Floors">
       <sprite>sprites\spr_wall</sprite>
     </sprites>
@@ -17,6 +20,10 @@
       <sprite>sprites\spr_bob2</sprite>
       <sprite>sprites\spr_bob4</sprite>
       <sprite>sprites\spr_bob3</sprite>
+    </sprites>
+    <sprites name="Items">
+      <sprite>sprites\spr_gun_1</sprite>
+      <sprite>sprites\spr_bullet</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -32,13 +39,24 @@
     <font>fonts\fnt1</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_bob</object>
-    <object>objects\obj_pwall1</object>
-    <object>objects\obj_text</object>
-    <object>objects\obj_mom</object>
-    <object>objects\obj_object10</object>
-    <object>objects\obj_over_Text</object>
-    <object>objects\room_transition</object>
+    <objects name="Walls,etc...">
+      <object>objects\obj_wall</object>
+    </objects>
+    <objects name="Players">
+      <object>objects\obj_bob</object>
+      <object>objects\obj_enemy</object>
+    </objects>
+    <objects name="text">
+      <object>objects\obj_text</object>
+      <object>objects\obj_object10</object>
+      <object>objects\obj_over_Text</object>
+    </objects>
+    <objects name="NPCs">
+      <object>objects\obj_mom</object>
+    </objects>
+    <objects name="Items">
+      <object>objects\obj_bullet</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_bob_home</room>
