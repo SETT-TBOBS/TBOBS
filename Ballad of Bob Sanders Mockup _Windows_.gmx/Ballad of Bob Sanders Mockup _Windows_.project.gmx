@@ -6,12 +6,12 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_bob1</sprite>
-    <sprite>sprites\spr_bob2</sprite>
     <sprite>sprites\spr_bob3</sprite>
     <sprite>sprites\spr_bob4</sprite>
     <sprite>sprites\spr_mom</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_bob2</sprite>
+    <sprite>sprites\spr_bob1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_House</background>
@@ -35,7 +35,7 @@
     <object>objects\room_transition</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_room0</room>
+    <room>rooms\rm_bob_home</room>
     <room>rooms\rm_room1</room>
   </rooms>
   <help>
