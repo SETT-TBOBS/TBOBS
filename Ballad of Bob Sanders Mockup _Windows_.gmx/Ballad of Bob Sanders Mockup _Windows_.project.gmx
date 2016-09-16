@@ -6,15 +6,15 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\bob1</sprite>
-    <sprite>sprites\bob2</sprite>
-    <sprite>sprites\bob3</sprite>
-    <sprite>sprites\bob4</sprite>
-    <sprite>sprites\sprite5</sprite>
-    <sprite>sprites\wall</sprite>
+    <sprite>sprites\spr_bob1</sprite>
+    <sprite>sprites\spr_bob2</sprite>
+    <sprite>sprites\spr_bob3</sprite>
+    <sprite>sprites\spr_bob4</sprite>
+    <sprite>sprites\spr_mom</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\House</background>
+    <background>background\bkg_House</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -26,17 +26,17 @@
     <font>fonts\fnt1</font>
   </fonts>
   <objects name="objects">
-    <object>objects\bob</object>
-    <object>objects\Pwall1</object>
+    <object>objects\obj_bob</object>
+    <object>objects\obj_pwall1</object>
     <object>objects\obj_text</object>
-    <object>objects\mom</object>
-    <object>objects\object10</object>
-    <object>objects\Over_Text</object>
-    <object>objects\Room_Transition</object>
+    <object>objects\obj_mom</object>
+    <object>objects\obj_object10</object>
+    <object>objects\obj_over_Text</object>
+    <object>objects\room_transition</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
-    <room>rooms\room1</room>
+    <room>rooms\rm_room0</room>
+    <room>rooms\rm_room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
