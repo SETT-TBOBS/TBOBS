@@ -39,6 +39,7 @@
     <font>fonts\fnt1</font>
   </fonts>
   <objects name="objects">
+<<<<<<< HEAD
     <objects name="Walls,etc...">
       <object>objects\obj_wall</object>
     </objects>
@@ -57,6 +58,14 @@
     <objects name="Items">
       <object>objects\obj_bullet</object>
     </objects>
+=======
+    <object>objects\obj_bob</object>
+    <object>objects\obj_pwall1</object>
+    <object>objects\obj_text</object>
+    <object>objects\obj_mom</object>
+    <object>objects\obj_object10</object>
+    <object>objects\obj_over_Text</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_bob_home</room>
